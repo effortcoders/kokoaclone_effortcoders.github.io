@@ -1,0 +1,35 @@
+.advertisement {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--nwitter_blue);
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+}
+
+.advertisement-banner {
+  width: 100px;
+  height: auto;
+}
+
+.advertisement__column:first-child {
+  text-align: center;
+  width: 85px;
+}
+
+.advertisement__title {
+  font-size: x-large;
+  font-weight: bold;
+
+  color: var(--head_black);
+}
+
+.advertisement__subtitle {
+  color: white;
+}
+
+.chat-text {
+  color: var(--nav_white);
+}

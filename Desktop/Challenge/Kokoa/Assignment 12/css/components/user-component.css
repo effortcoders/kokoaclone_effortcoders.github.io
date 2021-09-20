@@ -1,0 +1,69 @@
+.user-component,
+.user-component__column:first-child,
+.user-component__text {
+  display: flex;
+}
+
+.user-component,
+.user-component__column:first-child {
+  align-items: center;
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component__text {
+  flex-direction: column;
+}
+
+.user-component__profile {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 32px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  color: var(--head_black);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.user-component__subtitle {
+  color: var(--gray);
+  font-size: large;
+  margin-top: 8px;
+}
+
+.user-component__profile-l {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__profile-s {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title-not-bold {
+  font-weight: 400;
+}
+
+.user-component__song {
+  border: 3px solid var(--song_green);
+  border-radius: 20px;
+}
+
+.user-component__song > span,
+.user-component__song > i {
+  padding: 5px;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}

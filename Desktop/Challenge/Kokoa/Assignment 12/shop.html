@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 12 - shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>16:22</span>
+        <!--ICON-->
+        <i class="fas fa-location-arrow fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <!--ICONS-->
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="./friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./chats.html">
+            <span class="nav__notification badge">999+</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./view.html"
+            ><i class="far fa-eye fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./shop.html"
+            ><i class="fas fa-gem fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./more.html">
+            <span id="dots" class="nav__notification badge"></span>
+            <i class="far fa-comment-dots fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="screen-header shop-header">
+      <span class="screen-header__title">쇼핑</span>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fas fa-qrcode fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="shop-screen__column">
+        <div class="shop-screen__icons">
+          <i class="fas fa-gifts fa-lg"></i>
+          <span class="shop-icons-title">선물하기</span>
+        </div>
+
+        <div class="shop-screen__icons">
+          <i class="fas fa-store fa-lg"></i>
+          <span class="shop-icons-title">쇼핑하기</span>
+        </div>
+
+        <div class="shop-screen__icons">
+          <i class="fab fa-medium fa-lg"></i>
+          <span class="shop-icons-title">메이커스</span>
+        </div>
+
+        <div class="shop-screen__icons">
+          <i class="fab fa-linux fa-lg"></i>
+          <span class="shop-icons-title">리눅스</span>
+        </div>
+
+        <div class="shop-screen__icons">
+          <i class="fas fa-donate fa-lg"></i>
+          <span class="shop-icons-title">유용한 정보</span>
+        </div>
+      </div>
+
+      <div class="shop-screen__column">
+        <div class="shop-screen__advertisement">
+          <span class="shop-screen__advertisement-recommend">초심자 추천</span>
+          <span class="shop-screen__advertisement-title">Kokoa Clone!</span>
+          <p class="shop-screen__advertisement-text">
+            코딩을 시작하려는 모든 이들에게 추천!
+          </p>
+        </div>
+
+        <div class="shop-screen__advertisement">
+          <img
+            class="shop-screen__advertisement-img"
+            src="./img/advertisement/kokoa.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="shop-screen__column">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name="search-form"
+          placeholder="NomadCoders에서 검색하세요!"
+        />
+      </div>
+    </main>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

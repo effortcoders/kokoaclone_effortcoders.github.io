@@ -1,0 +1,57 @@
+.welcome-header,
+.login-form a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-size: xx-large;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+
+.welcome-header__info {
+  width: 30%;
+}
+
+.welcome-header__title,
+.login-form input[type="text"] {
+  margin-top: 8%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 3%;
+}
+
+.login-form,
+.login-form input {
+  border: none;
+  padding: 3% 0;
+
+  outline: none;
+}
+
+.login-form a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login-form input[type="submit"] {
+  margin-top: 8%;
+}
+
+.login-form input[type="button"],
+.login-form a {
+  margin-top: 2%;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  border-bottom: 1px solid var(--black);
+}

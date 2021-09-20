@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 12 - view</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>16:22</span>
+        <!--ICON-->
+        <i class="fas fa-location-arrow fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <!--ICONS-->
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="./friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./chats.html">
+            <span class="nav__notification badge">999+</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./view.html"
+            ><i class="fas fa-eye fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./shop.html"
+            ><i class="far fa-gem fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./more.html">
+            <span id="dots" class="nav__notification badge"></span>
+            <i class="far fa-comment-dots fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="screen-header view-header">
+      <span class="screen-header__title">뷰</span>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="advertisement wetube">
+        <div class="advertisement__column wetube__column">
+          <span class="advertisement__title wetube__title"
+            >Wetube! Youtube Clone!</span
+          >
+          <span class="advertisement__subtitle wetube__subtitle"
+            >Also in NomadCoders!</span
+          >
+        </div>
+        <div class="advertisement__column wetube__column">
+          <img
+            class="advertisement-banner"
+            src="./img/advertisement/wetube_added.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="my-view-header">
+        <div class="my-view-header__column">
+          <span>My 뷰 관리</span>
+          <i class="fas fa-chevron-right fa-sm"></i>
+        </div>
+
+        <div class="my-view-header__column">
+          <span>편집순</span>
+          <i class="fas fa-grip-lines-vertical fa-sm"></i>
+          <span>최신순</span>
+        </div>
+      </div>
+      <div class="my-view-screen">
+        <div class="my-view-screen__column">
+          <div class="my-view-screen-header">
+            <img
+              class="my-view-screen-header__profile"
+              src="./img/advertisement/kokoa_added.jpg"
+              alt=""
+            />
+            <span class="my-view-screen-header__title">코코아</span>
+            <i class="fas fa-check-circle fa-sm"></i>
+          </div>
+          <div class="my-view-screen-header">
+            <!--Icon-->
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+
+        <div class="my-view-screen__column">
+          <div class="my-view-screen-text">
+            <span class="my-view-screen-user-title">즐거운 한가위!</span>
+            <p class="my-view-screen-user-text">
+              한가위를 더욱 풍성하게 보내는 방법! 무제한 이모티콘으로 건네는
+              안부, 만나지 않아도 만난 것처럼 그룹 페이스톡, 심심하지 않게
+              코코아TV 예능까지. 즐거운 한가위 보내세요!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

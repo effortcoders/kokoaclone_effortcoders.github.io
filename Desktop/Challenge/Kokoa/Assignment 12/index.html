@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 12</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>16:22</span>
+        <!--ICON-->
+        <i class="fas fa-location-arrow fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <!--ICONS-->
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <span class="welcome-header__title"> Welcome to HyeunTalk </span>
+      <p class="welcome-header__info">
+        If you have a Hyeun Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form" action="./friends.html" method="GET">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="button" value="Sign Up" />
+      <a href="#">Find Hyeun Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

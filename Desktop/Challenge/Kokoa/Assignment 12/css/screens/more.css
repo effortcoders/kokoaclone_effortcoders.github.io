@@ -1,0 +1,33 @@
+.more-screen__column {
+  display: flex;
+}
+
+.more-header {
+  display: flex;
+  align-items: center;
+}
+
+.more-header-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.more-header-title:first-child {
+  margin-right: 10px;
+}
+
+.more-header:last-child i,
+.more-header:last-child span {
+  margin: 0 10px;
+}
+
+.more-screen__column:first-child {
+  justify-content: space-between;
+  background-color: var(--kokoa_yellow);
+  padding: 25px;
+}
+
+.more-screen__column:nth-child(2),
+.more-screen__column:nth-child(3) {
+  justify-content: space-around;
+}

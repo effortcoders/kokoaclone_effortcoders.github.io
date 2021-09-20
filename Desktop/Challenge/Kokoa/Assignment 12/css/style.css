@@ -1,0 +1,41 @@
+/* reset */
+@import url("./reset.css");
+
+/* variables */
+@import url("./variables.css");
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nanum+Pen+Script&display=swap");
+
+/* components */
+@import url("./components/status-bar.css");
+@import url("./components/nav-bar.css");
+@import url("./components/screen-header.css");
+@import url("./components/alt-screen-header.css");
+@import url("./components/user-component.css");
+@import url("./components/badge.css");
+@import url("./components/no-mobile.css");
+
+/* screens */
+@import url("./screens/login-form.css");
+@import url("./screens/friends.css");
+@import url("./screens/chats.css");
+@import url("./screens/view.css");
+@import url("./screens/shop.css");
+@import url("./screens/more.css");
+
+/* chatroom */
+@import url("./screens/chatroom.css");
+
+body {
+  font-family: "Nanum Pen Script", cursive;
+}
+.main-screen {
+  padding: var(--horizontal-space);
+}
+
+#dots {
+  padding: 3px;
+  left: 30px;
+  bottom: 25px;
+}

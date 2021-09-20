@@ -1,0 +1,20 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+}
+
+.screen-header__title {
+  color: var(--head_black);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.screen-header__icons i:hover {
+  cursor: pointer;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}

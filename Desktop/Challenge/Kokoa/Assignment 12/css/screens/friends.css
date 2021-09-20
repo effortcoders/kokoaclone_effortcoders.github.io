@@ -1,0 +1,42 @@
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 25px;
+
+  border-top: 1px solid var(--gray);
+}
+
+.friends-screen__channel-title,
+.friends-screen__channel-header > i {
+  margin: 10px 0;
+}
+
+/* splash-screen */
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--kokoa_yellow);
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  /* forwards : 마지막 속성값을 에니메이션이 끝나도 유지한다. */
+
+  animation-delay: 2s;
+}

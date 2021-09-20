@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+
+  /* Position fixed을 사용하면 기존의 width는 날아갑니다 */
+  width: 100%;
+
+  /* 이유는, css는 기본적으로 개발자가 명령한 width를 지키면서
+  padding의 값까지 주려 하기에, 결과적으로 width가 늘어나버립니다.
+  그래서, border-box 옵션으로 padding으로 변화를 주든 width를 건드리지마라
+  라고 정의를 한 것입니다. */
+  box-sizing: border-box;
+
+  background-color: var(--nav_white);
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__btn {
+  position: relative;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__notification {
+  position: absolute;
+
+  left: 20px;
+  bottom: 15px;
+
+  color: var(--nav_white);
+
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
